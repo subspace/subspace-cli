@@ -1,0 +1,26 @@
+name: 🎁 Feature Request
+description: If you have a great thing on your mind ⚡️
+title: "🎁 [Feature Request]: "
+labels: ["enhancement"]
+assignees:
+  - ozgunozerk
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill this feature request!
+  - type: textarea
+    id: feature
+    attributes:
+      label: What is the feature you would like to see?
+      description: please explain all the details :)
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/subspace/subspace-cli/blob/main/CODE_OF_CONDUCT.md) # TODO: fix this link
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
