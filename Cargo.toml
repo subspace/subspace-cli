@@ -20,7 +20,7 @@ serde_derive = "1.0.147"
 single-instance = "0.3.3"
 thiserror = "1.0.35"
 toml = "0.5.9"
-tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread"] }
+tokio = { version = "1.23.1", features = ["macros", "rt-multi-thread"] }
 tracing = "0.1.37"
 tracing-appender = "0.2"
 tracing-bunyan-formatter = "0.3.4"
